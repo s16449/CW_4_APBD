@@ -1,5 +1,6 @@
 ﻿using Cw_4.DTOs.Request;
 using Cw_4.DTOs.Response;
+using Cw_4.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -167,6 +168,34 @@ namespace Cw_4.Services
                 response.enrollment = enrollment;
 
                 return response;
+            }
+        }
+
+
+        public Student GetStudent(string indexNumber)
+        {
+            using (SqlConnection connectionSql = new SqlConnection(ConString))
+            using (SqlCommand commandSql = new SqlCommand())
+            {
+                commandSql.Connection = connectionSql;
+                commandSql.CommandText = "select * from student where IndexNumber = @indexNumber";
+                commandSql.Parameters.AddWithValue("@indexNumber", indexNumber);
+
+                connectionSql.Open();
+                SqlDataReader dataRead = commandSql.ExecuteReader();
+                if (dataRead.Read())
+                {
+                    var st = new Student();
+                    st.IndexNumber = indexNumber;
+                    st.FirstName = dataRead["FirstName"].ToString();
+                    st.LastName = dataRead["LastName"].ToString();
+                    st.BirthDate = Convert.ToDateTime(dataRead["BirthDate"].ToString().Substring(0, 8));
+                    st.idEnrollment = Int32.Parse(dataRead["IdEnrollment"].ToString());
+                    connectionSql.Close();
+                    return st;
+                   
+                }
+                return null;
             }
         }
     }

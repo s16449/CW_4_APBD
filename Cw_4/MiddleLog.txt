@@ -1,0 +1,249 @@
+Log: 25.01.2021 19:28:59
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:28:59
+Path: /favicon.ico
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:29:45
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:30:28
+Path: /api/students/s1234
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:30:35
+Path: /api/s1234
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:30:50
+Path: /api/students=s1234
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:33:29
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s1234
+Body: 
+
+Log: 25.01.2021 19:34:34
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s11412
+Body: 
+
+Log: 25.01.2021 19:52:29
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:52:29
+Path: /favicon.ico
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:52:36
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s11412
+Body: 
+
+Log: 25.01.2021 19:52:54
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s11412
+Body: 
+
+Log: 25.01.2021 19:53:04
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s11412x
+Body: 
+
+Log: 25.01.2021 19:53:06
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s11412x
+Body: 
+
+Log: 25.01.2021 19:53:34
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:53:38
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:53:43
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:53:48
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:53:55
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:54:02
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:54:51
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:54:55
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:57:11
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:57:20
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:57:30
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:58:09
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:59:46
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:59:47
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 19:59:57
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 20:00:06
+Path: /api/students
+Method: POST
+Query: 
+Body: 
+
+Log: 25.01.2021 20:00:23
+Path: /api/enrollments
+Method: POST
+Query: 
+Body: {"indexNumber":"s2444334",
+"firstName": "aas555s",
+"lastName": "ssss55sds",
+"BirthDate": "2021-02-12",
+"name": "it"
+}
+
+Log: 25.01.2021 20:06:31
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 20:06:42
+Path: /api/students
+Method: GET
+Query: ?name=Kowalski
+Body: 
+
+Log: 25.01.2021 20:07:24
+Path: /api/students
+Method: GET
+Query: 
+Body: 
+
+Log: 25.01.2021 20:07:37
+Path: /api/enrollments
+Method: POST
+Query: 
+Body: {"indexNumber":"s2444334",
+"firstName": "aas555s",
+"lastName": "ssss55sds",
+"BirthDate": "2021-02-12",
+"name": "it"
+}
+
+Log: 25.01.2021 20:07:45
+Path: /api/enrollments
+Method: POST
+Query: 
+Body: {"indexNumber":"s2444334",
+"firstName": "aas555s",
+"lastName": "ssss55sds",
+"BirthDate": "2021-02-12",
+"name": "it"
+}
+
+Log: 25.01.2021 20:08:06
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s11412
+Body: 
+
+Log: 25.01.2021 20:08:17
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s11412
+Body: 
+
+Log: 25.01.2021 20:08:43
+Path: /api/students
+Method: GET
+Query: ?indexNumber=s11412
+Body: 
+

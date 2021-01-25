@@ -31,7 +31,7 @@ namespace Cw_4.Services
                     st.IndexNumber = dataRead["IndexNumber"].ToString();
                     st.FirstName = dataRead["FirstName"].ToString();
                     st.LastName = dataRead["LastName"].ToString();
-                    st.BirthDate = dataRead["BirthDate"].ToString().Substring(0, 8);
+                    st.BirthDate = Convert.ToDateTime(dataRead["BirthDate"].ToString().Substring(0, 8));
                     st.idEnrollment = Int32.Parse(dataRead["IdEnrollment"].ToString());
                     list.Add(st);
                 }
