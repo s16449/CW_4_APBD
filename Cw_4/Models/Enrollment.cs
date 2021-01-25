@@ -10,7 +10,7 @@ namespace Cw_4
         public int IdEnrollment { get; set; }
         public int Semester { get; set; }
         public int IdStudy { get; set; }
-        public string StartDate { get; set; }
+        public DateTime StartDate { get; set; }
 
     }
 }

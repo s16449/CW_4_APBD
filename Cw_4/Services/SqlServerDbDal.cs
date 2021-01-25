@@ -61,7 +61,7 @@ namespace Cw_4.Services
                     en.IdEnrollment = Int32.Parse(dataRead["IdEnrollment"].ToString());
                     en.Semester = Int32.Parse(dataRead["Semester"].ToString());
                     en.IdStudy = Int32.Parse(dataRead["IdStudy"].ToString());
-                    en.StartDate = dataRead["StartDate"].ToString().Substring(0, 8);
+                    en.StartDate = Convert.ToDateTime(dataRead["StartDate"].ToString().Substring(0, 8));
                     list.Add(en);
                 }
                 connectionSql.Dispose();
